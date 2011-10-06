@@ -33,4 +33,4 @@ resources:
   homepage: https://metacpan.org/release/Module-Install-RDF
   license: http://dev.perl.org/licenses/
   repository: http://goddamn.co.uk/svn-web/perlmods/browse/Module-Install-RDF/
-version: 0.001
+version: 0.002
