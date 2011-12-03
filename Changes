@@ -6,6 +6,10 @@ Home page:    <https://metacpan.org/release/Module-Install-RDF>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-RDF>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.004  2011-12-03
+
+ - (Bugfix) use base
+
 0.003  2011-11-26
 
  - Use Object::ID::object_id instead of Scalar::Util::refaddr to uniquely
@@ -14,6 +18,7 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
  - (Addition) rdf_project_uri function which provides heuristics to
    determine the URI of the primary doap:Project described in the meta
    directory.
+ - (Regression) use parent
 
 0.002  2011-10-06
 
