@@ -25,6 +25,7 @@ no_index:
     - t
 requires:
   Module::Install: 1.00
+  Module::Runtime: 0
   Object::ID: 0
   RDF::TriN3: 0.200
   RDF::Trine: 0.135
@@ -35,4 +36,4 @@ resources:
   homepage: https://metacpan.org/release/Module-Install-RDF
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-module-install-rdf
-version: 0.005
+version: 0.006
