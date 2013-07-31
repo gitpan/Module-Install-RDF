@@ -8,7 +8,7 @@ use Object::ID;
 use RDF::Trine qw[];
 use URI::file qw[];
 
-our $VERSION = '0.008';
+our $VERSION = '0.009';
 
 my $Model = {};
 
@@ -84,7 +84,8 @@ sub write_meta_ttl
 		doap	http://usefulinc.com/ns/doap#
 		cpan	http://purl.org/NET/cpan-uri/person/
 		dcs	http://ontologi.es/doap-changeset#
-		dbug	http://ontologi.es/doap-bugs#
+		bugs	http://ontologi.es/doap-bugs#
+		deps	http://ontologi.es/doap-deps#
 		cpant	http://purl.org/NET/cpan-uri/terms#
 	);
 	

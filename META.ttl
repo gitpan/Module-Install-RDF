@@ -60,9 +60,10 @@ dist:project
 	doap:release      dist:v_0-006;
 	doap:release      dist:v_0-007;
 	doap:release      dist:v_0-008;
+	doap:release      dist:v_0-009;
 	doap:repository   [
-		a doap:HgRepository;
-		doap:browse <https://bitbucket.org/tobyink/p5-module-install-rdf>;
+		a doap:GitRepository;
+		doap:browse <https://github.com/tobyink/p5-module-install-rdf>;
 	];
 	doap:shortdesc    "advanced metadata for your distribution"@en;
 	doap:tester       cpan:tobyink.
@@ -176,6 +177,24 @@ dist:v_0-008
 	dcs:released-by   cpan:tobyink;
 	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-RDF-0.008.tar.gz>;
 	doap:revision     "0.008"^^xsd:string.
+
+dist:v_0-009
+	a                 doap:Version;
+	dc:identifier     "Module-Install-RDF-0.009"^^xsd:string;
+	dc:issued         "2013-07-31"^^xsd:date;
+	dcs:changeset     [
+		dcs:item [
+			a dcs:Update;
+			rdfs:label "Add a hard-coded prefix for doap-deps.";
+		];
+		dcs:item [
+			a dcs:Change;
+			rdfs:label "Change the hard-coded prefix for doap-bugs.";
+		];
+	];
+	dcs:released-by   cpan:tobyink;
+	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-RDF-0.009.tar.gz>;
+	doap:revision     "0.009"^^xsd:string.
 
 cpan:tobyink
 	a                 foaf:Person;
